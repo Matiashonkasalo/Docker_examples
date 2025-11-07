@@ -1,0 +1,10 @@
+
+This is a simple Go backend service containerized with Docker.
+
+## Description
+The backend builds a Go server and exposes port **8080**.  
+It uses Go modules for dependency management and sets default environment variables for local testing.
+
+### Build and run the image
+docker build -t docker-backend .
+docker run -p 8080:8080 docker-backend
