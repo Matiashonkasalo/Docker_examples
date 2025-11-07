@@ -1,0 +1,9 @@
+## Description
+The image is based on **Ruby 3.1.0** and includes all required dependencies for a production Rails environment.  
+It installs system libraries, installs gems via Bundler, runs database migrations, precompiles assets,  
+and starts the Rails server in production mode on port **3000**.
+
+## Build and Run
+
+docker build -t rails-app .
+docker run -p 3000:3000 rails-app
