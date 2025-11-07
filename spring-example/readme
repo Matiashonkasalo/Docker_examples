@@ -1,0 +1,9 @@
+## Description
+The image uses the lightweight **amazoncorretto:17-alpine** base image.  
+It copies the application source code, builds it with Maven, and runs the resulting JAR file.  
+The app listens on port **8080** by default.
+
+## Build and Run
+
+docker build -t java-app .
+docker run -p 8080:8080 java-app
