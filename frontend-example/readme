@@ -1,0 +1,9 @@
+## Description
+The image installs dependencies, builds the production version of the app,  
+and serves it using the lightweight `serve` package on port **5000**.  
+It communicates with the backend through the environment variable `REACT_APP_BACKEND_URL`.
+
+## Build and Run
+
+docker build -t frontend-example .
+docker run -p 5000:5000 frontend-example
