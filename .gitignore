@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+log/
+tmp/
+*.tmp
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Ruby / Rails
+.bundle/
+vendor/
+storage/
+*.sqlite3
+*.sqlite3-journal
+
+*.class
+*.jar
+*.war
+*.ear
+
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+*.env
+*.pid
+
